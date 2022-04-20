@@ -2,6 +2,7 @@
 text = str(input())
 print(text.replace('c','v'))
 print(text.count('c'))
+--------------------------------------------------
 #2
 text = str(input())
 number = text.count('c')
@@ -9,6 +10,7 @@ number = number + text.count('C')
 text_print = text.replace('c','v')
 print(text_print.replace('C','V'))
 print(number)
+--------------------------------------------------
 #3
 text = str(input())
 number = text.count('c') * 2
@@ -20,6 +22,7 @@ text_print = text_print.replace('C','V')
 text_print = text_print.replace('v','c')
 print(text_print.replace('V','C'))
 print(number)
+--------------------------------------------------
 #4
 text = input()
 number = text.find(" ")
@@ -27,6 +30,7 @@ if number != -1:
     print(text[0:number])
 else:
     print(text)
+--------------------------------------------------
 #5
  text = input()
 number = text.rfind(" ")
@@ -34,6 +38,7 @@ if number != -1:
     print(text[number:])
 else:
     print(text)
+--------------------------------------------------
 #6
 text = input()
 words = text.split()
@@ -44,10 +49,12 @@ for elem in words:
         print("var1")
 print(maxstr)
 print(len(maxstr))
+--------------------------------------------------
 #7
 text = input()
 words = text.split()
 print(len(words))
+--------------------------------------------------
 #8
 text = str(input())
 txet = text[::-1]
@@ -55,6 +62,7 @@ if text == txet:
   print("yes")
 else:
   print("no")
+--------------------------------------------------
 #9
 text = str(input())
 text.strip()
@@ -63,16 +71,19 @@ if text == txet:
   print("yes")
 else:
   print("no")
+--------------------------------------------------
 #10
 text = str(input())
 words = text.split("\\")
 for elem in words:
     print(elem)
+--------------------------------------------------
 #11
 text = str(input())
 words = text.split()
 inp = words[0] +' '+ (words[1])[0:1] + '.' + (words[2])[0:1] + '.'
 print(inp)
+--------------------------------------------------
 #12
 text = str(input())
 words = text.split()
